@@ -11,7 +11,8 @@
     <title>Viewer Choice Presentation </title>
       
        <img src="img/unitedStates.png">
-      <img src="img/world-map-with-continents.jpg">
+      <img src="img/world-map-with-continents.jpg" >
+      <img src="img/The_Earth_seen_from_Apollo_17.jpg" width ="500" height="520">
      
  
       
@@ -73,15 +74,45 @@
                 <h3> The visualization that I chose for my Viewer Choice presentation shows the current people in the United States of where they are originally from, where they have lived and where they are likely to move next. </h3>
                 <p></p>
                 <h4>The target audience for this visualization are people that are interested in US migration patterns state to state. But also gives a grasp of immigration of outside the country of each state's breakdown in population.</h4>
-                
+                <p></p>
+        
 
                 <p></p>
-                <h2><a href="https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0" style= "color: cadetblue">Link to Visualization</a></p> </h2>
-          
-            
-            <p></p>
+                <h2><a href="https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0" style= "color: cadetblue">Link to Visualization</a> </h2>
+                
+                
+                 <p></p>
             
             <img src="img/CoverImg.png" style = "width=200px; height=300px;">
+                <p></p>
+                <p></p>
+                
+                 <h3>Who is the user?</h3>
+                
+                <p></p>
+                
+                <li>Anyone interested in US migration patterns </li>
+                <li>People born in the United States who want to see statistics of certain states</li>
+                <li>People that are born outside the US but currently live in one of the states or wants to move into the US.</li>
+                <li>Allows the user to see indiviudal sized data for each curve in the map</li>
+                
+                
+                <P></P>
+                
+                     <h3>Questions user can ask?</h3>
+                
+                <p></p>
+                
+                <li>Where am I likely to go if I was born in Illinois?</li>
+                <li>I am born outside the country but live in Illinois? Am I likely to remain in the state or move to another?</li>
+                <li>What states show good economic boom?</li>
+                <li>Where am I likely to go if I was born in Illinois?</li>
+                
+                
+                
+          
+            
+         
             </div>
                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
           
@@ -101,7 +132,14 @@
         <div class="row">
           <div class="col-lg-8 mx-auto" style="flex: 0 0 100%;">
               
-               <h2 class="section-heading">Pros</h2>
+               <h2 class="section-heading"> <b>Features that work</b></h2>
+              <p></p>
+              
+              <h4><strong>Hover over Curve</strong></h4>
+              <img src="img/hoverPopUp.png">
+              <p></p>
+               <p>Hovering over the live graph allows a text box to appear in the x-y coordinate you pause at and gives you the catagory selected, the percentage, and the time. This is a good way of getting exact values without the guess work from the user to predict where the cursor is falling under. 
+            </p>
               <p></p>
             <h4><strong>Well Done Static State Bar</strong></h4>
               <img src="img/staticBar.png">
@@ -113,14 +151,7 @@
               <img src= "img/smallStateChanger.png">
             <p>Allows user who is aware of the map of the United States and can geographically pick an individual state that stands out to them in a grander scale.
             </p>
-            <p>Yang Hao progress: This week I</p>
-              <ul>
-                  <li>Created and organized the data sets needed to fulfill the section C requirements.</li>
-                  <li>Created the percent() and switch_hour() functions.</li>
-                  <li>Finished 5 different tables of data for the Shiny dashboard.</li>
-                  <li>Made the dashboard reactive to the hour format and the selected airport and month.</li>
-                  <li>Screenshots of the tables I created can be found in <a href="pages/yang_hao_update_03-02-18.pdf">this PDF.</a></li>
-              </ul>
+        
             
             <h4><strong>Sharable with social Media</strong></h4>
               
@@ -133,16 +164,7 @@
                     </ul>
               
             </p> 
-                <p>Just having a cool visualization is useless if you dont have someone to share it with. In this visualization, the creators have targeted famous social medias to help spread their visualization to the world. 
-                    
-                    <p>Some more platforms they could have included:</p>
-              
-                  <li>Google APIs </li>
-                  <li>Github or VC for developer uses</li>
-                  <li>Data files for open source uses and implementations</li>
-                  <li>Design some reactive features for picking date for more information</li>
 
-            </p>
           
           <h4><strong>Graph is dynamic for people born in a state vs people that moved to that state</strong></h4>
           <img src="img/newDispora.png">
@@ -155,12 +177,40 @@
           
           
             
-              <h2 class="section-heading">Cons</h2>
-              
+          <h2 class="section-heading"><b>What needs Improvement</b></h2>
+          <p></p>
+          
+          <h4><strong>Data is Scewed to Visualization.</strong></h4>
+          <img src="img/timeLine.png">
+          <P></P>
+          <li>The date increments on the x-axis is broken to year by year which is fine but doesnt tell us the populat times of year people were moving out.</li>
+          
+           <li>The data of outside born citizens isnt very accurate on specific areas or continents. This doesnt relate must to south asian countries since it has a high amount of people from the nearly spanish countries.</li>
+          
+          
+          
+          
+          
+          <p></p>
               <h4><strong>All graphs are static</strong></h4>
             <p>Every state's information is in an ordered form which gives us a huge scrollable selection which can overwhelm the user. Each state contains similar type of information so having a single dynamic graph that changed through a selection process would have benefited in this scenerio.  
                
             </p> 
+            
+            <h4><strong>Additional sources/tools for opensource</strong></h4>
+            
+            <p>Just having a cool visualization is useless if you dont have someone to share it with. In this visualization, the creators have targeted famous social medias to help spread their visualization to the world.</p> 
+                    
+                    <p>Some more platforms they could have included:</p>
+            
+                    <img src="img/githubIcon.png" width="150" height="50">
+              
+                  <li>Google APIs </li>
+                  <li>Github or VC for developer uses</li>
+                  <li>Data files for open source uses and implementations</li>
+                  <li>Design some reactive features for picking date for more information</li>
+
+            </p>
                 
         <p></p>
           
